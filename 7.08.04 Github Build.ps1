@@ -1020,5 +1020,5 @@ Write-Output $strMessage;
 
 &"C:\TOOLS\JiraCLI\jira.bat" --server http://jira.ncr.com --user $env:SVN_USER --password $env:SVN_PWD --action runFromIssueList --search "project = ARENG AND (fixVersion = \`"POS 7.08.04\`") AND \`"States / Sub States\`" in cascadeOption(11243, 11253) ORDER BY key DESC" --common "--action updateIssue --issue @issue@ --custom customfield_10060:$newVersion --comment \`"POS_70804 Build Complete - $newVersion\`" --field customfield_10242 --values 11243,11254 --asCascadeSelect"
 
-Write-Output "Build Complete - POS_70804 TEST";
+Write-Output "Build Complete - POS_70804";
 Write-Output "Build Successful: 7.08.04.$newBuild";
