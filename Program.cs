@@ -20,7 +20,7 @@ namespace ConsoleApplication1
 
         private void test()
         {
-            Console.Writeline("TEST");
+            Console.Writeline("Branch local machine");
         }
 
     }
