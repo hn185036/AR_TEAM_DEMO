@@ -20,7 +20,7 @@ namespace ConsoleApplication1
 
         private void test()
         {
-            Console.Writeline("Joke Lang HEHEH");
+            Console.Writeline("TEST");
         }
 
     }
