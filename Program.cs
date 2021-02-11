@@ -25,7 +25,7 @@ namespace ConsoleApplication1
 
         private void ReadLineKey()
         {
-            Console.Writeline("Updated to Read Key");
+            Console.Writeline("Updated to Read Key 2");
 
         }
     }
