@@ -23,5 +23,9 @@ namespace ConsoleApplication1
             Console.Writeline("Branch local machine 4th time");
         }
 
+        private void ReadLineKey()
+        {
+            Console.Writeline("ReadLineKey");
+        }
     }
 }
