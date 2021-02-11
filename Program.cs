@@ -20,8 +20,12 @@ namespace ConsoleApplication1
 
         private void test()
         {
-            Console.Writeline("Branch local machine");
+            Console.Writeline("Branch local machine 4th time");
         }
 
+        private void ReadLineKey()
+        {
+            Console.Writeline("ReadLineKey");
+        }
     }
 }
